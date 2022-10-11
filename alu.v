@@ -12,56 +12,51 @@
 
 
 //c <- a,b
-module alu(A,//input A
-B, //input B
-control, //ALU Control
-dout,//data out
-cout //carry out
+module alu(input[31:0] A,//input A
+input[31:0] B, //input B
+input[3:0] control, //ALU Control
+output reg [31:0] dout,//data out
+output reg cout //carry out
 );
 
 
-input A[0:32];
-input B[0:32];
-input control[0:2];
-
-
-output dout[0:32];
-output cout;
-
-reg dout;
-wire cout;
 
 
 
-if(control[0:2] == 3'b000)begin
-    assign dout = !A; //not
+
+
+always @(*) begin
+	if(control[2:0] == 3'b000)begin
+	    assign dout = !A; //not
+	end
+
+	else if(control[2:0] == 3'b001)begin
+
+	    assign dout = A && B; //and
+
+	end
+	else if(control[2:0] == 3'b010)begin
+	    assign dout = (A >> B[5:0]) | ({3{A[31]}} >> B[5:0]); 
+
+	end
+	else if(control[2:0] == 3'b011)begin
+
+	    assign dout = A^B; //xor
+
+	end
+
+	if(control[2:0] == 3'b100)begin
+	    assign {cout, dout} = A+B; //add
+	end
+
+	else if(control[2:0] == 3'b101)begin
+
+	    assign {cout, dout} = A-B; //sub
+	end
+	else begin
+	    assign {cout, dout} = {33{1'b0}};
+	end
 end
-
-else if(control[0:2] == 3'b001)begin
-
-    assign dout = A && B; //and
-
-end
-else if(control[0:2] == 3'b010)begin
-    assign dout = (A >> B[0:5]) | ({3{A[31]}} >> B[0:5]); 
-
-end
-else if(control[0:2] == 3'b011)begin
-
-    assign dout = A^B; //xor
-
-end
-
-if(control[0:2] == 3'b100)begin
-    assign {cout, dout} = A+B; //add
-end
-
-else if(control[0:2] == 3'b101)begin
-
-    assign {cout, dout} = A-B; //sub
-
-end
-
 
 
 
