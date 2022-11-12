@@ -1,0 +1,124 @@
+0 
+20
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -O -I/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -m32 -m32 -rdynamic
+-Mobjects= /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/lib/libvirsim.so /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/lib/liberrorinf.so /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/lib/libsnpsmalloc.so /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/lib/ctype-stubs_32.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -m32 -I/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/include
+-gen_obj
+-picarchive
+/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/bin/vcs1
+mul_tb.v
+90
+which_declare=declare -f
+apath=/usr/bin/acroread
+acroread_path=/usr/bin/acroread
+__LMOD_STACK_apath=L3Vzci9iaW4vYWNyb3JlYWQ=
+__LMOD_STACK_acroread_path=L3Vzci9iaW4vYWNyb3JlYWQ=
+__LMOD_STACK_VERDI_HOME=L3NvZnR3YXJlL1N5bm9wc3lzLTIwMjFfeDg2XzY0L3ZlcmRpL1ItMjAyMC4xMi1TUDEtMQ==
+__LMOD_STACK_VCS_HOME=L3NvZnR3YXJlL1N5bm9wc3lzLTIwMjFfeDg2XzY0L3Zjcy9SLTIwMjAuMTItU1AxLTE=
+__LMOD_STACK_SYNOPSYS_LC_ROOT=L3NvZnR3YXJlL1N5bm9wc3lzLTIwMjFfeDg2XzY0L2xjL1ItMjAyMC4wOS1TUDU=
+__LMOD_STACK_LM_LICENSE_FILE=MjcwMDVAc3lub3BzeXMud2Vic3RvcmUuaWxsaW5vaXMuZWR1
+__LMOD_REF_COUNT_PATH=/software/python-3.10.0/bin:1;/software/Synopsys-2021_x86_64/wv/R-2020.12-SP1/bin:1;/software/Synopsys-2021_x86_64/vui/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/vtran/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/vgen/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1/bin:1;/software/Synopsys-2021_x86_64/vc_static/R-2020.12-SP1-1/bin:1;/software/Synopsys-2021_x86_64/vcs-mx/O-2018.09-SP2-3/bin:1;/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/bin:1;/software/Synopsys-2021_x86_64/vc_ml_platform/2019.06/mlplatform/bin:1;/software/Synopsys-2021_x86_64/vcap/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/ufe_optional_spyglass-vcs/R-2020.12-SP1-1/SPYGLASS_HOME/bin:1;/software/Synopsys-2021_x86_64/txs/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/taurus_tsuprem4/R_2020.09/bin:1;/software/Synopsys-2021_x86_64/taurus_medici/	R_2020.09/bin:1;/software/Synopsys-2021_x86_64/syn/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/starrc/R-2020.09-SP5/bin:1;/software/Synopsys-2021_x86_64/spyglass/R-2020.12-SP1-1/SPYGLASS_HOME/bin:1;/software/Synopsys-2021_x86_64/spx/R-2020.09-SP2/bin:1;/software/Synopsys-2021_x86_64/siliconsmart/R-2020.12-SP1/bin:1;/software/Synopsys-2021_x86_64/sentaurus/R_2020.09-SP1/bin:1;/software/Synopsys-2021_x86_64/raphael/R_2020.09a/bin:1;/software/Synopsys-2021_x86_64/prime/R-2020.09-SP5/bin:1;/software/Synopsys-2021_x86_64/pcm_studio/R-2021.03/bin:1;/software/Synopsys-2021_x86_64/nt/R-2020.09-SP5/bin:1;/software/Synopsys-2021_x86_64/mw/R-2020.09-SP4/bin/linux64:1;/software/Synopsys-2021_x86_64/mlwizard/R-2021.03-SP1/bin:1;/software/Synopsys-2021_x86_64/lc/R-2020.09-SP5/bin:1;/software/Synopsys-2021_x86_64/laker/L-2020.06-3/bin:1;/software/Synopsys-2021_x86_64/idq/R-2020.09-SP4/linux64/iddq/bin:1;/software/Synopsys-2021_x86_64/identify/R-2021.03/bin:1;/software/Synopsys-2021_x86_64/icv_workbench/R-2020.09-SP2/bin:1;/software/Synopsys-2021_x86_64/icvalidator/R-2020.09-SP3-3/bin:1;/software/Synopsys-2021_x86_64/icc2/R-2020.09-SP5/bin:1;/software/Synopsys-2021_x86_64/icc/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/hspice/R-2020.12-SP1/hspice/bin:1;/software/Synopsys-2021_x86_64/hsim/R-2020.12-SP1/hsimplus/bin:1;/software/Synopsys-2021_x86_64/fpga/R-2021.03/bin:1;/software/Synopsys-2021_x86_64/fm/R-2020.09-SP5/bin:1;/software/Synopsys-2021_x86_64/finesim/R-2020.12-SP1-1/bin:1;/software/Synopsys-2021_x86_64/esp/R-2020.09-SP2/bin:1;/software/Synopsys-2021_x86_64/dftview/R-2020.09-SP4/bin:1;/software/Synopsys-2021_x86_64/customcompiler/R-2020.12-SP1/bin:1;/software/Synopsys-2021_x86_64/coretools/R-2020.12-SP3/bin:1;/usr/local/bin:1;/usr/local/sbin:1;/usr/bin:1;/usr/sbin:1
+__LMOD_REF_COUNT_MODULEPATH=/usr/share/modulefiles:1;/usr/share/Modules/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1;/etc/modulefiles/env:1;/etc/modulefiles/class:1;/etc/modulefiles/ews_software:1
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/software/python-3.10.0/lib:1;/software/Synopsys-2021_x86_64/syn/R-2020.09-SP4/linux64/tcl/lib:1
+_ModuleTable_Sz_=3
+_ModuleTable003_=LCAiL2V0Yy9tb2R1bGVmaWxlcy9lbnYiCiwgIi9ldGMvbW9kdWxlZmlsZXMvY2xhc3MiLCAiL2V0Yy9tb2R1bGVmaWxlcy9ld3Nfc29mdHdhcmUiLAp9LApzeXN0ZW1CYXNlTVBBVEggPSAiL3Vzci9zaGFyZS9tb2R1bGVmaWxlczovdXNyL3NoYXJlL01vZHVsZXMvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eDovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZTovZXRjL21vZHVsZWZpbGVzL2VudjovZXRjL21vZHVsZWZpbGVzL2NsYXNzOi9ldGMvbW9kdWxlZmlsZXMvZXdzX3NvZnR3YXJlIiwKfQo=
+_ModuleTable002_=biA9ICIvZXRjL21vZHVsZWZpbGVzL2V3c19zb2Z0d2FyZS9weXRob24zLzMuMTAuMC5sdWEiLApmdWxsTmFtZSA9ICJweXRob24zLzMuMTAuMCIsCmxvYWRPcmRlciA9IDIsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAicHl0aG9uMyIsCndWID0gIjAwMDAwMDAwMy4wMDAwMDAwMTAuKnpmaW5hbCIsCn0sCn0sCm1wYXRoQSA9IHsKIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCAiL3Vzci9zaGFyZS9Nb2R1bGVzL21vZHVsZWZpbGVzIiwgIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCAiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwgIi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUi
+_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IDcyMDAuMCwKY19zaG9ydFRpbWUgPSAwLjA1MDQwNjkzMjgzMDgxMSwKZGVwdGhUID0ge30sCmZhbWlseSA9IHt9LAptVCA9IHsKWyJTeW5vcHN5c194ODYtNjQiXSA9IHsKZm4gPSAiL2V0Yy9tb2R1bGVmaWxlcy9ld3Nfc29mdHdhcmUvU3lub3BzeXNfeDg2LTY0LzIwMjEubHVhIiwKZnVsbE5hbWUgPSAiU3lub3BzeXNfeDg2LTY0LzIwMjEiLApsb2FkT3JkZXIgPSAxLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gIlN5bm9wc3lzX3g4Ni02NC8yMDIxIiwKd1YgPSAiXjAwMDAyMDIxLip6ZmluYWwiLAp9LApweXRob24zID0gewpm
+_LMFILES_=/etc/modulefiles/ews_software/Synopsys_x86-64/2021.lua:/etc/modulefiles/ews_software/python3/3.10.0.lua
+XMODIFIERS=@im=ibus
+XDG_VTNR=2
+XDG_SESSION_TYPE=x11
+XDG_SESSION_ID=11
+XDG_SESSION_DESKTOP=gnome-classic
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1176147
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/home/maiorov2/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+XAUTHORITY=/run/user/1176147/gdm/Xauthority
+WINDOWPATH=2
+VTE_VERSION=5204
+VMR_MODE_FLAG=32
+VERDI_HOME=/software/Synopsys-2021_x86_64/verdi/R-2020.12-SP1-1
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+USERNAME=maiorov2
+UNAME=/bin/uname
+TOOL_HOME=/software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux
+SYNOPSYS_LC_ROOT=/software/Synopsys-2021_x86_64/lc/R-2020.09-SP5
+SSH_AUTH_SOCK=/tmp/ssh-B8QsrFHt97cB/agent.2277813
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_AGENT_PID=2277841
+SOFTPATH=/software
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2277813,unix/unix:/tmp/.ICE-unix/2277813
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=ibus
+OVA_UUM=0
+MODULESHOME=/usr/share/lmod/lmod
+MODULEPATH_ROOT=/usr/share/modulefiles
+MODULEPATH=/usr/share/modulefiles:/usr/share/Modules/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/etc/modulefiles/env:/etc/modulefiles/class:/etc/modulefiles/ews_software
+MANAGERPID=2277696
+LOADEDMODULES=Synopsys_x86-64/2021:python3/3.10.0
+LMOD_sys=Linux
+LMOD_arch=x86_64
+LMOD_VERSION=8.7.7
+LMOD_SHELL_PRGM=bash
+LMOD_SETTARG_FULL_SUPPORT=no
+LMOD_ROOT=/usr/share/lmod
+LMOD_PKG=/usr/share/lmod/lmod
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+LMODARCH=x86_64
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KRB5CCNAME=KCM:
+JOURNAL_STREAM=9:20139952
+INVOCATION_ID=e0f562ef57b54de2a1ff6df7b9bb2236
+HISTCONTROL=ignoredups
+GNOME_TERMINAL_SERVICE=:1.115
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/3d7338a8_650d_45ad_8784_9d826e3f1652
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US.UTF-8
+GDMSESSION=gnome-classic
+GDK_BACKEND=x11
+DISTARCH=Linux-x86_64
+DESKTOP_SESSION=gnome-classic
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1176147/bus,guid=d8ebeed0ca1af0e8421db8c863459d67
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1176147/bus,guid=d8ebeed0ca1af0e8421db8c863459d67
+COLORTERM=truecolor
+COBBLER_SERVER=cobbler-03.engrit.illinois.edu
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+BASH_FUNC_module%%=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then_ case "$-" in _ *v*x*)_ __lmod_sh_dbg='vx'_ ;;_ *v*)_ __lmod_sh_dbg='v'_ ;;_ *x*)_ __lmod_sh_dbg='x'_ ;;_ esac;_ fi;_ if [ -n "${__lmod_sh_dbg:-}" ]; then_ set +$__lmod_sh_dbg;_ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;_ fi;_ eval "$($LMOD_CMD $LMOD_SHELL_PRGM "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";_ __lmod_my_status=$?;_ if [ -n "${__lmod_sh_dbg:-}" ]; then_ echo "Shell debugging restarted" 1>&2;_ set -$__lmod_sh_dbg;_ fi;_ unset __lmod_sh_dbg;_ return $__lmod_my_status_}
+BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"_}
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+0
+2
+1665877194 mul.v
+1665877498 mul_tb.v
+4
+1618975851 /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/lib/libvirsim.so
+1618975371 /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/lib/liberrorinf.so
+1618975177 /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/lib/libsnpsmalloc.so
+1618975598 /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/lib/libvfs.so
+1665877503 simv.daidir
+-1 partitionlib

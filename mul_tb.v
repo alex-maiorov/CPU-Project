@@ -31,7 +31,7 @@ initial begin
 	#5;
 	rst = 0'b0; //reset multiplication circuit before starting
 	i = {19{1'b0}};
-	$display ("time, clk, rst, signctl, upper, a, b, dout");
+	$display ("time, clk, rst, signctl, upper, a, b, dout, drdy");
 	index = 0;
 	while(index<2**(2+8+8)) begin //test 4 MSBs and 4 LSBs
 

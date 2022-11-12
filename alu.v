@@ -14,7 +14,7 @@
 //c <- a,b
 module alu(input[31:0] A,//input A
 input[31:0] B, //input B
-input[3:0] control, //ALU Control
+input[2:0] control, //ALU Control
 output reg [31:0] dout,//data out
 output reg cout //carry out
 );
@@ -27,12 +27,12 @@ output reg cout //carry out
 
 always @(*) begin
 	if(control[2:0] == 3'b000)begin
-	    assign dout = !A; //not
+	    assign dout = ~A; //not
 	end
 
 	else if(control[2:0] == 3'b001)begin
 
-	    assign dout = A && B; //and
+	    assign dout = A & B; //and
 
 	end
 	else if(control[2:0] == 3'b010)begin
@@ -44,17 +44,13 @@ always @(*) begin
 	    assign dout = A^B; //xor
 
 	end
-
-	if(control[2:0] == 3'b100)begin
+	else if(control[2:0] == 3'b100)begin
 	    assign {cout, dout} = A+B; //add
 	end
 
 	else if(control[2:0] == 3'b101)begin
 
 	    assign {cout, dout} = A-B; //sub
-	end
-	else begin
-	    assign {cout, dout} = {33{1'b0}};
 	end
 end
 
