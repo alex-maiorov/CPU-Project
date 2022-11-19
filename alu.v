@@ -26,32 +26,14 @@ output reg cout //carry out
 
 
 always @(*) begin
-	if(control[2:0] == 3'b000)begin
-	    assign dout = ~A; //not
-	end
-
-	else if(control[2:0] == 3'b001)begin
-
-	    assign dout = A & B; //and
-
-	end
-	else if(control[2:0] == 3'b010)begin
-	    assign dout = (A >> B[5:0]) | ({3{A[31]}} >> B[5:0]); 
-
-	end
-	else if(control[2:0] == 3'b011)begin
-
-	    assign dout = A^B; //xor
-
-	end
-	else if(control[2:0] == 3'b100)begin
-	    assign {cout, dout} = A+B; //add
-	end
-
-	else if(control[2:0] == 3'b101)begin
-
-	    assign {cout, dout} = A-B; //sub
-	end
+	case (control)
+		3'b000: dout = ~A;
+		3'b001: dout = A & B;
+		3'b010: dout = (A >> B[5:0]) | ({3{A[31]}} >> B[5:0]);
+		3'b011: dout = A^B;
+		3'b100: {cout, dout} = A+B;
+		3'b101: {cout, dout} = A-B;
+	endcase
 end
 
 
