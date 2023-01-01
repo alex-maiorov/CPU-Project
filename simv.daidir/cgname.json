@@ -1,9 +1,9 @@
 {
-    "mul_tb": [
-        "mul_tb",
-        "EBsvs",
+    "alu_tb": [
+        "alu_tb",
+        "EiRPr",
         "module",
-        3
+        1
     ],
     "...MASTER...": [
         "SIM",
