@@ -1,4 +1,5 @@
-*/simv
+*simv
 vcs/*
-*/ucli.key
-csrc/*
+*ucli.key
+csrc/**
+simv.daidir/**
