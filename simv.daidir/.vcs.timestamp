@@ -1,6 +1,6 @@
 2        
-0 alu.v
-0 /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/etc/systemverilog/alu.v
+0 mul.v
+0 /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/etc/systemverilog/mul.v
 21
 +incdir+src/
 -Mamsrun=
@@ -22,7 +22,7 @@
 -gen_obj
 -picarchive
 /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/bin/vcs1
-verification/tb/alu_tb.v
+verification/tb/mul_tb.v
 69
 which_declare=declare -f
 apath=/usr/bin/acroread
@@ -95,12 +95,12 @@ BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"_}
 BASH_ENV=/usr/share/lmod/lmod/init/bash
 0
 2
-1668536427 src/alu.v
-1672596082 verification/tb/alu_tb.v
+1672507391 src/mul.v
+1666485955 verification/tb/mul_tb.v
 4
 1618975851 /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/lib/libvirsim.so
 1618975371 /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/lib/liberrorinf.so
 1618975177 /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/lib/libsnpsmalloc.so
 1618975598 /software/Synopsys-2021_x86_64/vcs/R-2020.12-SP1-1/linux/lib/libvfs.so
-1672596150 simv.daidir
+1672598025 simv.daidir
 -1 partitionlib
