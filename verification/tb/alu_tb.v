@@ -19,6 +19,7 @@ cout);
 
 
 initial begin
+	$display ("BEGIN CSV alu");
 	i = {19{1'b0}};
 	$display ("time,control,a,b,dout,cout");
 	for(index = 0; index<2**(3+8+8); index=index+1) begin //test 4 MSBs and 4 LSBs
@@ -31,6 +32,7 @@ initial begin
 		$time, control, a, b, dout, cout);
 		i = i+1'b1;
 	end
+	$display ("END CSV alu");
 end
 
 //always @(*) begin
