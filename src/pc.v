@@ -1,23 +1,22 @@
-// ctl[1] - set high to connect pc to to system bus output
-// ctl[0] - set low to increment pc, set high to add system bus to pc
+//ctl - set low to increment pc, set high to add PC and systembus_in. PC will do its thing on positive edge of step_pc
 module pc(
-input [31:0] systembus_in,
+input [31:0] systembus_in, //this will be the MSBs in the jump instructions
 input ctl, 
 input step_pc,
 output [31:0] systembus_out,
-)
+output misaligned
+);
 
 reg [31:0] pc;
+
+assign systembus_out = pc;
+assign misaligned = ~(pc[1:0] == 2'b00);
 
 always @(posedge step_pc) begin
     case (ctl)
         1'b0: pc = pc + 32'h00000004;
-        1'b1: pc = pc + systembus_in
+        1'b1: pc = pc + systembus_in;
     endcase
-end
-
-always @(*) begin
-    
 end
 
 endmodule 
