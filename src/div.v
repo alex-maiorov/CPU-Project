@@ -1,3 +1,4 @@
+`timescale 10us/100ns
 //performs operation A/B
 module div(
 input [31:0] A,
@@ -7,8 +8,8 @@ input rst,
 input signctl, //pull high to treat as twos complement signed, pull low to treat as unsigned
 input remainder_out, //pull low to get quotient, pull high to get remainder
 output reg [31:0] dout,
-output drdy
-)
+output reg drdy
+);
 
 reg [31:0] Q_intermediate;
 reg [31:0] R_intermediate;
@@ -44,7 +45,7 @@ always @(posedge clk) begin
         3'b011: begin //signed, A and B are of different signs
             Q_intermediate = Q_intermediate - 1;
             R_intermediate = R_intermediate + B;
-        default: ;
+        end
     endcase
 end
 

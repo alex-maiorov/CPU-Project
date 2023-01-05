@@ -1,6 +1,6 @@
 `include "div.v"
 `timescale 10us/100ns
-module mul_tb();
+module div_tb();
 
 reg [31:0] a;
 reg [31:0] b;
