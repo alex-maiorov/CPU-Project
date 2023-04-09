@@ -5,7 +5,7 @@
 //control[0:2] = 000 - NOT A
 //control[0:2] = 001 - AND A, B
 //control[0:2] = 010 - Arithmetic SHR A by B
-//control[0:1] = 011 - XOR A, B
+//control[0:2] = 011 - XOR A, B
 
 //control[0:2] = 100 - ADD A, B (A+B)
 //control[0:2] = 101 - SUB A, B (A-B)

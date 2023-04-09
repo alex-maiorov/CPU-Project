@@ -1,6 +1,6 @@
 //ctl - set low to increment pc, set high to add PC and systembus_in. PC will do its thing on positive edge of step_pc
 module pc(
-input [31:0] systembus_in, //this will be the MSBs in the jump instructions
+input [31:0] systembus_in, //this will be the MSBs plus the LSBs in the jump instruction
 input ctl, 
 input step_pc,
 output [31:0] systembus_out,
