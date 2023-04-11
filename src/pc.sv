@@ -16,7 +16,7 @@ assign systembus_out = pc;
 assign misaligned = ~(pc[1:0] == 2'b00);
 
 always_ff @(posedge Clk) begin
-    case (ctl)
+    case (pc_ctl)
         PC_STEP: pc <= pc + 32'h00000004;
         PC_JUMP: pc <= pc + systembus_in;
         PC_HOLD: pc = pc;
